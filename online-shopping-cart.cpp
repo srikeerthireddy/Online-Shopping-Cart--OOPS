@@ -15,7 +15,6 @@ public:
     double getPrice() const { return price; }
     virtual ~Product() {}
 };
-
 // Clothing class (Inheritance)
 class Clothing : public Product {
 private:
